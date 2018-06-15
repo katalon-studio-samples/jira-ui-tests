@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>This is sample project of UI testing for Jira System</description>
+   <name>Jira UI</name>
+   <tag></tag>
+   <UUID>cedae2b6-ef6a-4041-8c22-62cc4ca8e267</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
