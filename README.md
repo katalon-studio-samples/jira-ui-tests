@@ -1,11 +1,5 @@
 # katalon-studio-samples
-## Jira API
-This project contains examples of verifying Jira API using Katalon Studio. The examples demonstrate:
-- How to create different types of Web Service Request in Object Repository
-- How to call Web Serivce Request from Test Cases
-- How to verify the response in Test Cases
-- Best practices in Web services end-point management, verification, and creating Test Case with BDD mindset
-## Jira UI
+## JIRA UI TESTS
 This project contains examples of performing functional automation test on Jira UI using Katalon Studio. The examples demonstrate:
 - UI functional test introduction
 - Test object definition
