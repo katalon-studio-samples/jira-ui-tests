@@ -19,47 +19,38 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-/**
- * The workflow test case inputs information into Create issue form
- * The expected result will be on another test case which verifying the created issue
- *
- * Given The Create issue form is opening
- * When  I input neccessary information into the form
- *
- * @params
- * project: project's key
- * issueType: issue's type, such as Bug, Task, Story, Enum, etc
- * priority: issue's priority
- * summary: issue's summary
- */
-WebUI.callTestCase(findTestCase('Advance Examples/Pages/Master Page/Open the Create Issue form'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simple Examples/Login Test/Test data hardcoding examples/Login with username and password specified in the test steps'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementClickable(findTestObject('Test Objects/Pages/Master Page/Menu/elCreate'), 0)
+
+WebUI.click(findTestObject('Test Objects/Pages/Master Page/Menu/elCreate'))
 
 WebUI.waitForElementVisible(findTestObject('Test Objects/Pages/Create Issue Page/elRoot'), GlobalVariable.element_timeout)
 
 WebUI.verifyElementText(findTestObject('Test Objects/Pages/Create Issue Page/elTitle'), 'Import issues\nCreate issue')
 
-CustomKeywords.'com.jira.components.JSelect.selectByText'('Project', project)
+CustomKeywords.'com.jira.components.JSelect.selectByText'('Project', 'Katalon-Demo (KD)')
 
-CustomKeywords.'com.jira.components.JSelect.selectByText'('Issue Type', issueType)
+CustomKeywords.'com.jira.components.JSelect.selectByText'('Issue Type', 'Bug')
 
 String time = new Date().getTime()
 
-String fixed_summary = String.format('%s %s', summary, time)
+String fixed_summary = String.format('%s %s', 'Ticket created at', time)
 
 WebUI.waitForElementClickable(findTestObject('Test Objects/Pages/Create Issue Page/elSummary'), GlobalVariable.element_timeout)
 
 WebUI.setText(findTestObject('Test Objects/Pages/Create Issue Page/elSummary'), fixed_summary)
 
-CustomKeywords.'com.jira.components.JSelect.selectByText'('Priority', priority)
+CustomKeywords.'com.jira.components.JSelect.selectByText'('Priority', 'Low')
 
-WebUI.setText(findTestObject('Test Objects/Pages/Create Issue Page/elDescription'), description)
+WebUI.setText(findTestObject('Test Objects/Pages/Create Issue Page/elDescription'), 'As a User, I want to be able to create a new tickets, so that I can keep track all tasks')
 
 WebUI.waitForElementClickable(findTestObject('Test Objects/Pages/Create Issue Page/elCreate'), GlobalVariable.element_timeout)
 
 WebUI.click(findTestObject('Test Objects/Pages/Create Issue Page/elCreate'))
 
-WebUI.waitForElementClickable(findTestObject('Test Objects/Pages/Master Page/elFlag', [('summary') : fixed_summary]), 
-    GlobalVariable.element_timeout)
+WebUI.waitForElementClickable(findTestObject('Test Objects/Pages/Master Page/elFlag', [('summary') : fixed_summary]), GlobalVariable.element_timeout)
 
 WebUI.click(findTestObject('Test Objects/Pages/Master Page/elFlag', [('summary') : fixed_summary]))
 
