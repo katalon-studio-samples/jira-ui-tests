@@ -4,9 +4,11 @@ The **jira-ui-tests** is a testing project with examples of performing UI functi
 ### Contains
 #### Simple examples
 - Create test case with hard coding test data
-- Create test case with hard coding encrypted test data
+- Create test case with encrypted test data
 - Create test case with test data from GlobalVariable (Profiles)
 - Create test dase with data-driven approach
+- Create test case with test steps calling other test cases
+- Create test case with test steps calling custom keywords
 
 #### Advance examples
 - Follow [Page Object Design Pattern](https://www.seleniumhq.org/docs/06_test_design_considerations.jsp#page-object-design-pattern) 
