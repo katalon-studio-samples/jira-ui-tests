@@ -1,6 +1,6 @@
 # katalon-studio-samples
 ## JIRA UI TESTS
-The **jira-ui-tests** is a testing project with examples of performing UI functional automation test on JIRA Web Application using Katalon Studio. The examples in this project are various from simple to advance tests:
+The **jira-ui-tests** is a testing project with examples of performing UI functional automation test on JIRA Web Application using Katalon Studio. The examples in this project are various from simple to advance tests
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -21,6 +21,12 @@ What things you need to install the software and how to install them
 - Follow [Page Object Design Pattern](https://www.seleniumhq.org/docs/06_test_design_considerations.jsp#page-object-design-pattern) 
 - Test cases are set up to be reusable
 - Test steps are readable with BDD mindset
+
+### Installing
+A step by step series of examples that tell you have to get a development env running
+- [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this .git
+- [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
+- Update configuration for integration: [Jira](https://docs.katalon.com//display/KD/JIRA+Integration), [Katalon Analytics](https://docs.katalon.com//display/KD/Katalon+Analytics+%28Beta%29+Integration)
 
 ### Test scenarios
 #### Story: Login feature
