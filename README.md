@@ -28,6 +28,9 @@ A step by step series of examples that tell you have to get a development env ru
 - [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
 - Update configuration for integration: [Jira](https://docs.katalon.com//display/KD/JIRA+Integration), [Katalon Analytics](https://docs.katalon.com//display/KD/Katalon+Analytics+%28Beta%29+Integration)
 
+### Running the tests
+#### Execute a single test case
+
 ### Test scenarios
 #### Story: Login feature
      User story
