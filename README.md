@@ -44,6 +44,16 @@ The advance test cases in this example repository demonstrate how to setup the t
 - **(4)** Choose the browser for executing the test case
 
 ### Execute a test suite with data-driven
+![Execute a test suite with data-driven](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20with%20data-driven.png)
+This example demonstrates how to apply data-driven approach into test execution with Katalon Studio. 
+- **(1)** Expland the Test Suites structure, where all the test suites are stored and select the test suite you want to execute
+- **(2)** Select the test case you want to apply data-driven approach
+- **(3)** Click Show/Hide Data Binding to open Test Data and Variable Binding feature for the selected test case
+- **(4)** Add an Data Files item containing test data used in the test
+- **(5)** Data Files structure, where all the data files are stored. These data files can be created from external Excel files, CSV files, or from the result of a database query.
+- **(6)** Variables and Data are binding
+- **(7)** Choose the browser for executing the test suite
+
 ### Execute a test suite collection
 
 ## Test scenarios
