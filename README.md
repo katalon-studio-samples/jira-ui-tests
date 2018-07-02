@@ -28,10 +28,13 @@ A step by step series of examples that tell you have to get a development env ru
 - [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
 - Update configuration for integration: [Jira](https://docs.katalon.com//display/KD/JIRA+Integration), [Katalon Analytics](https://docs.katalon.com//display/KD/Katalon+Analytics+%28Beta%29+Integration)
 
-### Running the tests
-#### Execute a single test case
+## Running the tests
+### Execute a simple test case
+### Execute an advance test case
+### Execute a test suite with data-driven
+### Execute a test suite collection
 
-### Test scenarios
+## Test scenarios
 #### Story: Login feature
      User story
          As a Jira user, I would like to be able to login the Jira system, so that I could manage Jira tickets.
