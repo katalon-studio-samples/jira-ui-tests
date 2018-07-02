@@ -25,7 +25,6 @@ What things you need to install the software and how to install them
 - Test steps are readable with BDD mindset
 
 ### Installing
-A step by step series of examples that tell you have to get a development env running
 - [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this .git
 - [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
 - Update configuration for integration: [Jira](https://docs.katalon.com//display/KD/JIRA+Integration), [Katalon Analytics](https://docs.katalon.com//display/KD/Katalon+Analytics+%28Beta%29+Integration)
