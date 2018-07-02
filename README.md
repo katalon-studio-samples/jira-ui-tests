@@ -6,8 +6,8 @@ The **jira-ui-tests** is a testing project with examples of performing UI functi
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 ### Prerequisites
 What things you need to install the software and how to install them
-- [Katalon Studio](https://www.katalon.com/)
-- Permission access to Jira System (provided in the sample code)
+- [Katalon Studio](https://www.katalon.com/) - [Installation and Setup](https://docs.katalon.com//display/KD/Installation+and+Setup)
+- Permission access to [Jira System](https://katalon.atlassian.net) (provided in the sample code)
 ### Contains
 #### Simple examples
 - Create test case with hard coding test data
