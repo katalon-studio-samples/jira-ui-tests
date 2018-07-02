@@ -64,7 +64,7 @@ This example demonstrates how to execute a test suite collection.
 - **(3)** A browser type is selected for each test suite in the collection
 - **(4)** A execution profile is selected for each test suite in the collection
 - **(5)** Execution mode. You can set to execute the test suite collection in Sequential or Parallel modes.
-- **(6)** Execute the test suite collection with definied configuration.
+- **(6)** Execute the test suite collection with defined configuration.
 
 ## Test scenarios
 ### Story: Login feature
