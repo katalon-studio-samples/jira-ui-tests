@@ -1,4 +1,4 @@
-# katalon-studio-samples
+# Katalon Studito Samples
 ## JIRA UI TESTS
 The **jira-ui-tests** is a testing project with examples of performing UI functional automation test on JIRA Web Application using Katalon Studio. The examples in this project are various from simple to advance tests
 
