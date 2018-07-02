@@ -1,4 +1,4 @@
-# Katalon Studito Samples
+# Katalon Studio Samples
 ## JIRA UI TESTS
 The **jira-ui-tests** is a testing project with examples of performing UI functional automation test on JIRA Web Application using Katalon Studio. The examples in this project are various from simple to advance tests
 
@@ -65,7 +65,7 @@ This example demonstrates how to execute a test suite collection.
 - **(6)** Execute the test suite collection with definied configuration.
 
 ## Test scenarios
-#### Story: Login feature
+### Story: Login feature
      User story
          As a Jira user, I would like to be able to login the Jira system, so that I could manage Jira tickets.
      
@@ -84,7 +84,7 @@ This example demonstrates how to execute a test suite collection.
           |	tom      | jira@2018 |
           |	jerry    | jira@2019 |
           
-#### Story: Create ticket
+### Story: Create ticket
      User story
          As a Jira user, I would like to be able to create a new ticket, so that I could manage my tasks.
 
