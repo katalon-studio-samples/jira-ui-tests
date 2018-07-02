@@ -1,7 +1,9 @@
 # Katalon Studio Samples
 ## JIRA UI TESTS
 The **jira-ui-tests** is a testing project with examples of performing UI functional automation test on JIRA Web Application using Katalon Studio. The examples in this project are various from simple to advance tests
-
+## Application Under Test (AUT)
+- JIRA cloud: https://katalon.atlassian.net/
+- Account: demo@katalon.com/8eml3nBz19rJ6kP8oCYK
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 ### Prerequisites
