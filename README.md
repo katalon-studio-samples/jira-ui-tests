@@ -30,6 +30,11 @@ A step by step series of examples that tell you have to get a development env ru
 
 ## Running the tests
 ### Execute a simple test case
+![Execute a simple test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20simple%20test%20case.png)
+- **(1)** Expand the Test Cases structure, where all the test cases are stored.
+- **(2)** Select the test case you want to execute
+- **(3)** Choose the browser for executing the test case
+
 ### Execute an advance test case
 ### Execute a test suite with data-driven
 ### Execute a test suite collection
