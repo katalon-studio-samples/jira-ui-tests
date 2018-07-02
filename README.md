@@ -30,13 +30,13 @@ A step by step series of examples that tell you have to get a development env ru
 
 ## Running the tests
 ### Execute a simple test case
-![Execute a simple test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20simple%20test%20case.png)
+![Execute a simple test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20simple%20test%20case.png?raw=true)
 - **(1)** Expand the Test Cases structure, where all the test cases are stored.
 - **(2)** Select the test case you want to execute
 - **(3)** Choose the browser for executing the test case
 
 ### Execute an advance test case
-![Execute an advance test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20an%20advance%20test%20case.png)
+![Execute an advance test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20an%20advance%20test%20case.png?raw=true)
 The advance test cases in this example repository demonstrate how to setup the test project with Page Object Design Pattern approach to reduce the maintenance cost as well as increase the reusability of testing scripts.
 - **(1)** Tests is the place where actual test cases are stored and executed.
 - **(2)** Pages is the place where Page Object are stored in Test case format. They could not be executed.
@@ -44,7 +44,7 @@ The advance test cases in this example repository demonstrate how to setup the t
 - **(4)** Choose the browser for executing the test case
 
 ### Execute a test suite with data-driven
-![Execute a test suite with data-driven](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20with%20data-driven.png)
+![Execute a test suite with data-driven](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20with%20data-driven.png?raw=true)
 This example demonstrates how to apply data-driven approach into test execution with Katalon Studio. 
 - **(1)** Expand the Test Suites structure, where all the test suites are stored and select the test suite you want to execute
 - **(2)** Select the test case you want to apply data-driven approach
@@ -55,7 +55,7 @@ This example demonstrates how to apply data-driven approach into test execution 
 - **(7)** Choose the browser for executing the test suite
 
 ### Execute a test suite collection
-![Execute a test suite collection](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20collection.png)
+![Execute a test suite collection](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20collection.png?raw=true)
 This example demonstrates how to execute a test suite collection.
 - **(1)** Expand the Test Suites structure and select the test suite collection you want to execute
 - **(2)** Test suite lists in the selected collection. 
