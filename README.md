@@ -37,8 +37,9 @@ Below is the list of all the available test cases in this project relating to th
           Given The Login page is loaded successfully
           When I login the system with valid <username> and <password>
           Then The Dashboard Page is loaded successfully
+         
          Examples:
-          | username | password  |
+          | username    | password  |
           |	tom      | jira@2018 |
           |	jerry    | jira@2019 |
  ```         
@@ -52,6 +53,7 @@ Below is the list of all the available test cases in this project relating to th
           Given I login the system with a valid account
           When I create a new ticket with below information
           Then the ticket is created successfully
+         
          Examples:
           | project | issueType | priority | summary |
           |         |           |          |         |
