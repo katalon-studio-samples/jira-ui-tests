@@ -39,7 +39,7 @@ Below is the list of all the available test cases in this project relating to th
           Then The Dashboard Page is loaded successfully
          
          Examples:
-          | username    | password  |
+          | username     | password  |
           |	tom      | jira@2018 |
           |	jerry    | jira@2019 |
  ```         
