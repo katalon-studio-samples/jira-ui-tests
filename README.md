@@ -104,7 +104,7 @@ Below is the list of all the available test cases in this project relating to th
 ## See Also
 Update configurations for integration: [Jira](https://docs.katalon.com/x/7oEw), [Katalon Analytics](https://docs.katalon.com/x/KRhO)
 
-Katalon Documentation: http://docs.katalon.com/
+Katalon Documentation: http://docs.katalon.com/, especially some [Tips and Tricks](https://docs.katalon.com/x/PgXR) to run a successful automation test. 
 
 Katalon Forum: https://forum.katalon.com/
 
