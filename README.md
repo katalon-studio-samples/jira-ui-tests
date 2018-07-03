@@ -23,6 +23,7 @@ At the end of this README, you will find additional ways to execute automation t
 ## Test Scenarios
 Below is the list of all the available test cases in this project relating to the test scenarios as described. Simply select the test case you want to run in Katalon Studio and execute accordingly. You can also make additional changes in these test cases to get familiar with automation testing and specifically Katalon Studio. 
 ### Story: Login feature
+```Gherkin     
      User story
          As a Jira user, I would like to be able to login the Jira system, so that I could manage Jira tickets.
      
@@ -40,8 +41,9 @@ Below is the list of all the available test cases in this project relating to th
           | username | password  |
           |	tom      | jira@2018 |
           |	jerry    | jira@2019 |
-          
+ ```         
 ### Story: Create ticket
+```Gherkin     
      User story
          As a Jira user, I would like to be able to create a new ticket, so that I could manage my tasks.
 
@@ -54,7 +56,8 @@ Below is the list of all the available test cases in this project relating to th
           | project | issueType | priority | summary |
           |         |           |          |         |
           |         |           |          |         |
-          
+```
+
 ## Test Cases
 ### Create a Test Case 
 - With hard coding test data
