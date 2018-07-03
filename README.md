@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
      + Jira cloud: https://katalon.atlassian.net/
      + Account: demo@katalon.com/8eml3nBz19rJ6kP8oCYK
 ### Setting Up
-- [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this .git
+- [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this repository
 - [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
 ### Executing a Test Case
 ![Execute a simple test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20simple%20test%20case.png?raw=true)
