@@ -6,7 +6,7 @@ The **jira-ui-tests** perform UI functional automation test on Jira Web Applicat
 These instructions will get you a copy of the project up and running on your local machine.
 ### Prerequisites
 - [Katalon Studio](https://www.katalon.com/) - [Installation and Setup](https://docs.katalon.com/x/HwAM)
-- Permission access to [Jira System](https://katalon.atlassian.net) (provided in the sample code)
+- Internet access
 - Application Under Test (AUT):
      + Jira cloud: https://katalon.atlassian.net/
      + Account: demo@katalon.com/8eml3nBz19rJ6kP8oCYK
