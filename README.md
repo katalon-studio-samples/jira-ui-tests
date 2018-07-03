@@ -1,7 +1,7 @@
 # Katalon Studio Samples
-Katalon Studio is a free and easy-to-use automated functional and regression testing platform. It provides users the ability to implement full automated testing solutions for their application projects with reduced and minimal engineering and programming skill requirements.
+Katalon Studio is a free and easy-to-use automated functional and regression testing platform. It provides users the ability to implement full automated testing solutions for their application projects with minimal engineering and programming skill requirements.
 ______
-The **jira-ui-tests** is a testing project performing UI functional automation test on Jira Web Application using Katalon Studio. The examples in this project range from simple to advanced tests.
+The **jira-ui-tests** performs UI functional automation test on Jira Web Application using Katalon Studio. The examples in this project range from common to advanced test cases.
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine.
 ### Prerequisites
@@ -13,7 +13,11 @@ These instructions will get you a copy of the project up and running on your loc
 ### Setting Up
 - [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this .git
 - [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
-- Update configuration for integration: [Jira](https://docs.katalon.com/x/7oEw), [Katalon Analytics](https://docs.katalon.com/x/KRhO)
+### Executing a Test Case
+![Execute a simple test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20simple%20test%20case.png?raw=true)
+- **(1)** Expand the Test Cases structure, where all the test cases are stored.
+- **(2)** Select the test case you want to execute
+- **(3)** Choose the browser for executing the test case
 
 ## Test scenarios
 ### Story: Login feature
@@ -49,8 +53,8 @@ These instructions will get you a copy of the project up and running on your loc
           |         |           |          |         |
           |         |           |          |         |
           
-## Contents
-### Simple examples
+## Test Cases
+### Common Test Cases 
 - Create test case with hard coding test data
 - Create test case with encrypted test data
 - Create test case with test data from GlobalVariable (Profiles)
@@ -58,44 +62,16 @@ These instructions will get you a copy of the project up and running on your loc
 - Create test case with test steps calling other test cases
 - Create test case with test steps calling custom keywords
 
-### Advanced examples
+### Advanced Test Cases
 - Follow [Page Object Design Pattern](https://www.seleniumhq.org/docs/06_test_design_considerations.jsp#page-object-design-pattern) 
 - Test cases are set up to be reusable
 - Test steps are readable with BDD mindset
 
-## Executing This Project
-### Executing a Test Case
-![Execute a simple test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20simple%20test%20case.png?raw=true)
-- **(1)** Expand the Test Cases structure, where all the test cases are stored.
-- **(2)** Select the test case you want to execute
-- **(3)** Choose the browser for executing the test case
+## See Also
+Update configuration for integration: [Jira](https://docs.katalon.com/x/7oEw), [Katalon Analytics](https://docs.katalon.com/x/KRhO)
 
-### Execute an advanced test case
-![Execute an advance test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20an%20advance%20test%20case.png?raw=true)
-The advanced test cases in this example repository demonstrate how to set up the test project with Page Object Design Pattern approach to reduce the maintenance cost as well as increase the reusability of testing scripts.
-- **(1)** Tests is the place where actual test cases are stored and executed.
-- **(2)** Pages is the place where Page Objects are stored in Test case format. They could not be executed.
-- **(3)** Select the test case you want to execute
-- **(4)** Choose the browser for executing the test case
+Katalon Documentation: http://docs.katalon.com/
 
-### Execute a test suite with data-driven
-![Execute a test suite with data-driven](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20with%20data-driven.png?raw=true)
-This example demonstrates how to apply data-driven approach to test execution with Katalon Studio. 
-- **(1)** Expand the Test Suites structure, where all the test suites are stored and select the test suite you want to execute
-- **(2)** Select the test case you want to apply data-driven approach
-- **(3)** Click Show/Hide Data Binding to open Test Data and Variable Binding feature for the selected test case
-- **(4)** Add an Data Files item containing test data used in the test
-- **(5)** Data Files structure, where all the data files are stored. These data files can be created from external Excel files, CSV files, or from the result of a database query.
-- **(6)** Variables and Data are binding
-- **(7)** Choose the browser for executing the test suite
+Katalon Forum: https://forum.katalon.com/
 
-### Execute a test suite collection
-![Execute a test suite collection](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20test%20suite%20collection.png?raw=true)
-This example demonstrates how to execute a test suite collection.
-- **(1)** Expand the Test Suites structure and select the test suite collection you want to execute
-- **(2)** Test suite lists in the selected collection. 
-- **(3)** A browser type is selected for each test suite in the collection
-- **(4)** A execution profile is selected for each test suite in the collection
-- **(5)** Execution mode. You can set to execute the test suite collection in Sequential or Parallel modes.
-- **(6)** Execute the test suite collection with defined configuration.
-
+Katalon Business Support: https://www.katalon.com/support-service-options/
