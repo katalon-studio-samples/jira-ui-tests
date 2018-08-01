@@ -7,18 +7,24 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.support.ui.FluentWait
 import org.openqa.selenium.support.ui.Wait
 
-import com.kms.katalon.core.webui.driver.DriverFactory
-
 import internal.GlobalVariable
 
 
 public class JWait {
 
-	public static WebDriver driver = DriverFactory.getWebDriver();
+	private WebDriver driver;
+	private Wait<WebDriver> wait;
 
-	public static Wait<WebDriver> wait = new FluentWait<>(driver)
-	.withTimeout(GlobalVariable.element_timeout, SECONDS)
-	.pollingEvery(1, SECONDS)
-	.ignoring(NotFoundException.class)
-	.withMessage("Waiting for... ");
+	public JWait(WebDriver web_driver) {
+		driver = web_driver;
+		wait = new FluentWait<>(driver)
+				.withTimeout(GlobalVariable.element_timeout, SECONDS)
+				.pollingEvery(1, SECONDS)
+				.ignoring(NotFoundException.class)
+				.withMessage("Waiting for... ");
+	}
+
+	public Wait<WebDriver> getWait() {
+		return wait;
+	}
 }

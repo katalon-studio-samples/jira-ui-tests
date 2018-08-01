@@ -1,22 +1,16 @@
 package com.jira.components
-import static com.jira.utils.JWait.*;
 import static java.util.concurrent.TimeUnit.*
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
-import org.openqa.selenium.interactions.Actions
-import org.openqa.selenium.support.ui.ExpectedConditions
-import org.openqa.selenium.support.ui.FluentWait
-import com.jira.utils.JWait
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.logging.KeywordLogger
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-
-import internal.GlobalVariable
 
 class JSelect {
 
@@ -25,11 +19,14 @@ class JSelect {
 	private TestObject oInput;
 	private String label;
 	private WebElement elInput;
+	private WebDriver driver;
 
-	public JSelect(){}
+	public JSelect(){
+	}
 
 	public JSelect(TestObject o) {
 		log.logInfo("Init JSelect by TestObject");
+		
 		this.oInput = o;
 		this.elInput = WebUiBuiltInKeywords.findWebElement(oInput);
 	}
@@ -37,6 +34,8 @@ class JSelect {
 	public JSelect(String label) {
 		log.logInfo("Init JSelect by Label");
 		this.label = label;
+		driver = DriverFactory.getWebDriver();
+		
 		WebElement temp = driver.findElement(By.xpath(String.format("//label[starts-with(.,'%s')]", label)));
 		String id = temp.getAttribute("for") + "-field"
 		this.elInput = driver.findElement(By.xpath(String.format(".//input[@id='%s']", id)));
