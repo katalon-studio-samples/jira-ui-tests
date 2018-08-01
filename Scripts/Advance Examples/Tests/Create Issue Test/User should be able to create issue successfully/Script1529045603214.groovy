@@ -37,9 +37,9 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Advance Examples/Pages/Login Page/Login with username and encrypted password'), [('username') : GlobalVariable.username
         , ('encryptedPassword') : GlobalVariable.encrypted_password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Advance Examples/Pages/Create Issue Page/Create a new issue with these information'), [('project') : project
+def fixed_summary = WebUI.callTestCase(findTestCase('Advance Examples/Pages/Create Issue Page/Create a new issue with these information'), [('project') : project
         , ('issueType') : issueType, ('priority') : priority, ('description') : description, ('summary') : summary], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Advance Examples/Pages/Issue Page/The opening issue displays correct information'), [('issue_summary') : ''
-        , ('issue_type') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Advance Examples/Pages/Issue Page/The opening issue displays correct information'), [('issue_summary') : fixed_summary
+        , ('issue_type') : issueType], FailureHandling.STOP_ON_FAILURE)
 

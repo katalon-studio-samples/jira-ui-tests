@@ -63,3 +63,5 @@ WebUI.waitForElementClickable(findTestObject('Test Objects/Pages/Master Page/elF
 
 WebUI.click(findTestObject('Test Objects/Pages/Master Page/elFlag', [('summary') : fixed_summary]))
 
+return fixed_summary
+
