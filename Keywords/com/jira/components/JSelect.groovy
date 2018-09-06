@@ -26,7 +26,7 @@ class JSelect {
 
 	public JSelect(TestObject o) {
 		log.logInfo("Init JSelect by TestObject");
-		
+
 		this.oInput = o;
 		this.elInput = WebUiBuiltInKeywords.findWebElement(oInput);
 	}
@@ -35,7 +35,7 @@ class JSelect {
 		log.logInfo("Init JSelect by Label");
 		this.label = label;
 		driver = DriverFactory.getWebDriver();
-		
+
 		WebElement temp = driver.findElement(By.xpath(String.format("//label[starts-with(.,'%s')]", label)));
 		String id = temp.getAttribute("for") + "-field"
 		this.elInput = driver.findElement(By.xpath(String.format(".//input[@id='%s']", id)));
