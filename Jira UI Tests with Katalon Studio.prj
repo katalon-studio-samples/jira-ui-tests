@@ -4,6 +4,6 @@
    <name>Jira UI Tests with Katalon Studio</name>
    <tag></tag>
    <UUID>cedae2b6-ef6a-4041-8c22-62cc4ca8e267</UUID>
-   <migratedVersion>5.7.0</migratedVersion>
+   <migratedVersion>5.4.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
