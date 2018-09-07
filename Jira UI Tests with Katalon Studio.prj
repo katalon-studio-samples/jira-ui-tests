@@ -6,19 +6,4 @@
    <UUID>cedae2b6-ef6a-4041-8c22-62cc4ca8e267</UUID>
    <migratedVersion>5.7.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <sourceContent>
-      <sourceFolderList>
-         <sourceFolderConfiguration>
-            <url>Include/scripts/groovy</url>
-         </sourceFolderConfiguration>
-      </sourceFolderList>
-      <systemFolderList>
-         <systemFolderConfiguration>
-            <url>Include/scripts/groovy</url>
-         </systemFolderConfiguration>
-         <systemFolderConfiguration>
-            <url>Include/features</url>
-         </systemFolderConfiguration>
-      </systemFolderList>
-   </sourceContent>
 </Project>
