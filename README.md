@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 - Internet access
 - Application Under Test (AUT):
      + Jira cloud: https://katalon.atlassian.net/
-     + Account: demo@katalon.com/8eml3nBz19rJ6kP8oCYK
+     + Account: demo@katalon.com/sPiHQ&YEa6ST`de+
 ### Setting Up
 - [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this repository
 - [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
