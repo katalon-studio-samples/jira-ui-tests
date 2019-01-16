@@ -51,14 +51,21 @@ public class GlobalVariable {
         allVariables.put('qa profile', allVariables['default'] + ['username' : 'tom'])
         
         String profileName = RunConfiguration.getExecutionProfile()
-        
         def selectedVariables = allVariables[profileName]
-        URL = selectedVariables['URL']
-        password = selectedVariables['password']
-        encrypted_password = selectedVariables['encrypted_password']
-        username = selectedVariables['username']
-        element_timeout = selectedVariables['element_timeout']
-        ticket_sample = selectedVariables['ticket_sample']
+		
+		for(object in selectedVariables){
+			String overridingGlobalVariable = RunConfiguration.getOverridingGlobalVariable(object.key)
+			if(overridingGlobalVariable != null){
+				selectedVariables.put(object.key, overridingGlobalVariable)
+			}
+		}
+
+        URL = selectedVariables["URL"]
+        password = selectedVariables["password"]
+        encrypted_password = selectedVariables["encrypted_password"]
+        username = selectedVariables["username"]
+        element_timeout = selectedVariables["element_timeout"]
+        ticket_sample = selectedVariables["ticket_sample"]
         
     }
 }

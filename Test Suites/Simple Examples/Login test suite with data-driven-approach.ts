@@ -4,7 +4,7 @@
    <name>Login test suite with data-driven-approach</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-06T17:36:44</lastRun>
+   <lastRun>2018-12-03T10:36:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

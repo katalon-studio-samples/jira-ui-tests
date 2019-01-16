@@ -4,7 +4,7 @@
    <name>Regression Tests</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-01T15:28:54</lastRun>
+   <lastRun>2018-12-03T09:36:19</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -45,42 +45,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>cba50a02-866d-4cec-8ae2-76f54a55bb74</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d59c4a48-afb8-4b0b-9935-11480dc3308c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance Examples/Tests/Create Issue Test/User should be able to create issue successfully - Copy</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>069d7e85-e542-4883-8b95-d670611460b9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>acc2b70d-ec6d-446f-bde6-2af85236c519</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>03d8b678-3744-48fe-b84f-ac3b7e3ce82b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7025da6b-46e1-43ca-bff1-75fb933b89a2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>25c3b66d-019e-405c-bacd-a142fe2c28ed</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -4,12 +4,11 @@
    <name>Login successfully tests (one failed)</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-21T18:39:48</lastRun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <mailRecipient>trongbui@kms-technology.com;</mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <testSuiteGuid>19369edf-d637-4540-a8d8-ae0bf364f3fd</testSuiteGuid>
    <testCaseLink>
       <guid>cf208ae6-c0a1-46c8-835d-c4f3ba0fd04f</guid>
