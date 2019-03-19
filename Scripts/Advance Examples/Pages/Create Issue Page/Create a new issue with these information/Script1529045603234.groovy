@@ -38,9 +38,9 @@ WebUI.waitForElementVisible(findTestObject('Test Objects/Pages/Create Issue Page
 
 WebUI.verifyElementText(findTestObject('Test Objects/Pages/Create Issue Page/elTitle'), 'Import issues\nCreate issue')
 
-CustomKeywords.'com.jira.components.JSelect.selectByText'('Project', project)
+CustomKeywords.'com.jira.components.JSelect.selectByText'(findTestObject('Object Repository/Test Objects/Pages/Create Issue Page/elRoot'), 'Project', project)
 
-CustomKeywords.'com.jira.components.JSelect.selectByText'('Issue Type', issueType)
+CustomKeywords.'com.jira.components.JSelect.selectByText'(findTestObject('Object Repository/Test Objects/Pages/Create Issue Page/elRoot'), 'Issue Type', issueType)
 
 String time = new Date().getTime()
 
@@ -50,7 +50,7 @@ WebUI.waitForElementClickable(findTestObject('Test Objects/Pages/Create Issue Pa
 
 WebUI.setText(findTestObject('Test Objects/Pages/Create Issue Page/elSummary'), fixed_summary)
 
-CustomKeywords.'com.jira.components.JSelect.selectByText'('Priority', priority)
+CustomKeywords.'com.jira.components.JSelect.selectByText'(findTestObject('Object Repository/Test Objects/Pages/Create Issue Page/elRoot'), 'Priority', priority)
 
 WebUI.setText(findTestObject('Test Objects/Pages/Create Issue Page/elDescription'), description)
 

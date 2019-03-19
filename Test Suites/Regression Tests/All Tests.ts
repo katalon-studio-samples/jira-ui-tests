@@ -4,7 +4,6 @@
    <name>All Tests</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-24T10:20:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -171,7 +170,7 @@
       <guid>6af284f9-7f9a-43a0-88cc-88f04757b8df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance Examples/Tests/Search Issue Test/User should be able to search and verify issue content</testCaseId>
+      <testCaseId>Test Cases/Advance Examples/Pages/Search Issue Page/Search Issue Test/User should be able to search and verify issue content</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -189,7 +188,7 @@
       <guid>8f3ed4c2-990a-43db-9cc4-d27f11c4621e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance Examples/Tests/Search Issue Test/User should be able to search issues with an jql</testCaseId>
+      <testCaseId>Test Cases/Advance Examples/Pages/Search Issue Page/Search Issue Test/User should be able to search issues with an jql</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

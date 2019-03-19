@@ -32,7 +32,7 @@ import internal.GlobalVariable as GlobalVariable
  * issue_type: issue's type
  */
 
-WebUI.callTestCase(findTestCase('Advance Examples/Tests/Search Issue Test/User should be able to search issues with an jql'), 
+WebUI.callTestCase(findTestCase('Advance Examples/Pages/Search Issue Page/Search Issue Test/User should be able to search issues with an jql'), 
     [('issue_summary') : issue_summary], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Advance Examples/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary'), 
