@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>A valid account used during the test</description>
-      <initValue>'sPiHQ&amp;YEa6ST`de+'</initValue>
+      <initValue>'j+113&quot;SEq56HTV~Q'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>The password that has been encrypted used during the test</description>
-      <initValue>'KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y'</initValue>
+      <initValue>'uahPiVYC/TGQsFpPyEof1IiEjnfAasCp'</initValue>
       <name>encrypted_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

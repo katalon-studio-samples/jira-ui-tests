@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Sign in to your account/inp
 
 WebUI.click(findTestObject('Object Repository/Page_Sign in to your account/input_Sign in_idSIButton9'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to your account/input_Enter password_passwd'), 'KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to your account/input_Enter password_passwd'), 'uahPiVYC/TGQsFpPyEof1IiEjnfAasCp')
 
 WebUI.click(findTestObject('Object Repository/Page_Sign in to your account/input_Forgot my password_idSIB'))
 
