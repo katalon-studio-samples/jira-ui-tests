@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('Test Objects/Pages/Login Page/elEmail'), 'demo@kat
 
 WebUI.click(findTestObject('Test Objects/Pages/Login Page/elNext'))
 
-WebUI.setText(findTestObject('Test Objects/Pages/Login Page/elPassword'), 'sPiHQ&YEa6ST`de+')
+WebUI.setText(findTestObject('Test Objects/Pages/Login Page/elPassword'), 'j+113"SEq56HTV~Q')
 
 WebUI.click(findTestObject('Test Objects/Pages/Login Page/elSignin'))
 
