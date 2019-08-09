@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='root']//h1[.='Log in to your account']</value>
+         <value>//*[(text() = 'Log in to your account' or . = 'Log in to your account')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>text</name>
       <type>Main</type>
-      <value>//div[@id='root']//h1[.='Log in to your account']</value>
+      <value>Log in to your account</value>
    </webElementProperties>
 </WebElementEntity>

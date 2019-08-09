@@ -7,6 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//*[@data-test-id = 'issue.views.issue-base.foundation.summary.heading']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -14,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>data-test-id</name>
       <type>Main</type>
-      <value>//div[@id='issue-content']//h1[@id='summary-val']</value>
+      <value>issue.views.issue-base.foundation.summary.heading</value>
    </webElementProperties>
 </WebElementEntity>
