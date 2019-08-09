@@ -21,7 +21,3 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('Test Objects/Pages/Issue Page/elIssueSummary'), GlobalVariable.element_timeout)
 WebUI.verifyElementText(findTestObject('Test Objects/Pages/Issue Page/elIssueSummary'), issue_summary)
-
-WebUI.waitForElementVisible(findTestObject('Test Objects/Pages/Issue Page/elIssueType'), GlobalVariable.element_timeout)
-WebUI.verifyElementText(findTestObject('Test Objects/Pages/Issue Page/elIssueType'), issue_type)
-
